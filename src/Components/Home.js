@@ -8,8 +8,6 @@ const Home = () => {
 let navigate = useNavigate();
 
   const [posts, setPosts] = useState([])
-  const [imgLink, setImgLink] = useState([])
-
 
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/posts')
@@ -44,8 +42,7 @@ let navigate = useNavigate();
                     <div className='right-icon-div'>
                       <button onClick={() => navigate('/item')} id='right-icon'><FaAngleRight /></button>
                     </div>
-                  </div>
-                  
+                  </div>  
                 </div>
               )
             })

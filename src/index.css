@@ -45,6 +45,7 @@ code {
   padding-inline: 20px;
   margin: 10px 0px;
   border-radius: 30px;
+  font-style:bold;
 }
 .header-logo a{
   text-decoration: none;
